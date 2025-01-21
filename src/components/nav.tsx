@@ -1,11 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
-import Grid1 from "@/assets/images/grid_1.jpg";
-import Grid2 from "@/assets/images/grid_2.jpg";
-
-import Sketch from "@/assets/images/sketch.svg";
 import Link from "next/link";
 
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";

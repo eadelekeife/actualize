@@ -1,9 +1,5 @@
 import DisplayLayout from "@/components/layout";
 
-import { IoEyeSharp } from "react-icons/io5";
-import { FaComments } from "react-icons/fa6";
-
-import ArchivePage from "../page"
 import { TbCategory } from "react-icons/tb";
 import { BsCalendar2DateFill } from "react-icons/bs";
 

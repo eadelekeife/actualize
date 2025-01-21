@@ -1,5 +1,7 @@
 import DisplayLayout from "@/components/layout";
 
+import Link from "next/link";
+
 const ArchivePage = () => {
     return (
         <div>
@@ -46,43 +48,59 @@ const ArchivePage = () => {
                         <div className="flex flex-col md:grid grid-cols-4 gap-10">
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">MP3</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">MP3</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">Podcast</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">Podcast</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">MP4</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">MP4</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">Article</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">Article</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">Podcast</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">Podcast</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">Podcast</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">Podcast</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">Podcast</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">Podcast</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                             <div>
                                 <div className="h-[15rem] md:h-[20rem] bg-[#161616] mb-5 w-full"></div>
-                                <p className="uppercase font-medium text-sm mb-3">Podcast</p>
-                                <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                <Link href="/archive/2">
+                                    <p className="uppercase font-medium text-sm mb-3">Podcast</p>
+                                    <h3 className="text-2xl leading-tight mb-2">Spirit and Strength: Modern Art from Haiti</h3>
+                                </Link>
                             </div>
                         </div>
                     </div>
