@@ -1,21 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Report School Bold';
+  src: url('/report-school-bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
+@font-face {
+  font-family: 'Report School Regular';
+  src: url('/report-school-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jelani';
+  src: url('/jelani.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+  --background: #F9F9F5;
+  --foreground: #171717;
+  --off-text: #ccccc4;
+}
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  font-family: "Jost", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Report School Regular';
+}
+
+
+.blog-content::first-letter {
+  font-size: 3em;
+  /* Adjust size */
+  font-weight: bold;
+}
+
+.middle {
+  flex: 0 1 auto;
+  /* Prevents the middle box from stretching */
+  display: flex;
+  /* Makes the middle-box a flex container */
+  justify-content: center;
+}
+
+.ant-drawer-content-wrapper,
+.ant-drawer-body {
+  width: 100% !important;
+  background: #161616 !important;
+}
+
+.ant-drawer-header {
+  display: none !important;
 }

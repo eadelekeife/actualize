@@ -11,7 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        offWhite: "var(--off-text)"
       },
+      fontFamily: {
+        jelani: 'Jelani',
+        jost: "Jost"
+      },
+      gridTemplateColumns: {
+        "1/3": "1fr 3fr"
+      }
     },
   },
   plugins: [],
