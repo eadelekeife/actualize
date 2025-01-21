@@ -38,7 +38,7 @@ export default function Home() {
                 </h3>
               </div>
             </div>
-            <div className="mt-10 flex flex-col gap-3">
+            <div className="block md:hidden mt-10 flex flex-col gap-3">
               <div className="flex justify-between items-center">
                 <h3 className="text-white text-3xl md:text-4xl leading-snug">
                   <span className="block text-[#ccccc4]">Find </span>the photo
@@ -50,7 +50,7 @@ export default function Home() {
               <div className="md:text-center">
                 <div className="">
                   <div className="mx-auto">
-                    <p className="text-base text-[#ccccc4] md:leading-loose inline-block mb-7">
+                    <p className="text-base text-center text-[#ccccc4] md:leading-loose inline-block mb-7">
                       By leveraging Humanz and other cutting-edge tools, we are able to create campaigns that not only resonate with audiences but also
                       drive real results for our clients.
                     </p>
